@@ -17,7 +17,11 @@ public class Base64ToDecConverter {
 			decimal=decimal.add(BigDecimal.valueOf(64).pow(strlen-1-i).multiply(lookUpMap.get(base64.charAt(i))));
 		}
 		
+<<<<<<< HEAD
 		System.out.println(base64+"\n "+decimal);
+=======
+		System.out.println(base64+"\n"+decimal);
+>>>>>>> branch 'master' of https://github.com/hegadeprasanna/Converter.git
 		
 	}
 	
