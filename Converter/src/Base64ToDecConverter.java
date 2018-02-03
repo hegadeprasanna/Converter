@@ -18,7 +18,7 @@ public class Base64ToDecConverter {
 		}
 		
 		System.out.println(base64+"\n "+decimal);
-		
+		System.out.println(base64+"\n"+decimal);
 	}
 	
 	private static Map<Object, BigDecimal> createLookUp(){
